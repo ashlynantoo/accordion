@@ -67,7 +67,7 @@ body {
   background: var(--clr-purple);
   color: var(--clr-grey-1);
   line-height: 1.5;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 h3,
@@ -83,7 +83,7 @@ h3 {
 }
 
 h4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 p {
@@ -94,14 +94,6 @@ p {
 @media screen and (min-width: 800px) {
   h3 {
     font-size: 1.75rem;
-  }
-
-  h4 {
-    font-size: 1rem;
-  }
-
-  body {
-    font-size: 1rem;
   }
 
   h3,
@@ -148,6 +140,7 @@ main {
   margin-bottom: 1rem;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
+  transition: var(--transition);
 }
 
 .question header {
@@ -183,7 +176,8 @@ main {
 }
 
 .question p {
-  color: var(--clr-grey-4);
+  color: var(--clr-grey-5);
   margin-bottom: 0;
   margin-top: 0.5rem;
+  text-align: justify;
 }
